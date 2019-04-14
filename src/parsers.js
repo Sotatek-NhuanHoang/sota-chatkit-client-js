@@ -92,6 +92,12 @@ const parseMessagePart = data => {
       },
     }
   } else {
-    throw new TypeError("failed to parse message part")
+    return {
+      partType: "inline",
+      payload: {
+        type: data.type,
+        content: data.content,
+      },
+    }
   }
 }
