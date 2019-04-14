@@ -1,7 +1,7 @@
 {
-  "name": "@pusher/chatkit-client",
+  "name": "sota-chatkit-client-js",
   "description": "Pusher Chatkit client SDK for browsers and react native",
-  "main": "dist/web/chatkit.js",
+  "main": "src/main.js",
   "version": "1.4.1",
   "author": "Pusher",
   "license": "MIT",
