@@ -10,14 +10,14 @@ export class Attachment {
 
     this._id = basicAttachment._id
     this._downloadURL = basicAttachment._downloadURL
-    this._expiration = basicAttachment._expiration
+    // this._expiration = basicAttachment._expiration
 
-    this._roomId = roomId
-    this._instance = instance
+    // this._roomId = roomId
+    // this._instance = instance
 
-    this.url = this.url.bind(this)
-    this.urlExpiry = this.urlExpiry.bind(this)
-    this._fetchNewDownloadURL = this._fetchNewDownloadURL.bind(this)
+    // this.url = this.url.bind(this)
+    // this.urlExpiry = this.urlExpiry.bind(this)
+    // this._fetchNewDownloadURL = this._fetchNewDownloadURL.bind(this)
   }
 
   url() {
